@@ -47,7 +47,7 @@
     "*.js": "eslint"
   },
   "dependencies": {
-    "bcoin": "git+https://github.com/Airbitz/bcoin.git#primitiveBuild",
+    "bcoin": "1.0.0",
     "biggystring": "3.0.2",
     "bn.js": "^4.11.8",
     "bs58grscheck": "https://github.com/Groestlcoin/bs58grscheck",
