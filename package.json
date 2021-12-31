@@ -89,7 +89,7 @@
     "mocha-multi-reporters": "^1.1.7",
     "mochawesome": "^3.0.3",
     "node-fetch": "^2.2.0",
-    "nyc": "^13.0.1",
+    "nyc": "^15.0.0",
     "prettier": "^2.2.0",
     "prettier-eslint-cli": "^4.7.1",
     "request": "^2.88.0",
