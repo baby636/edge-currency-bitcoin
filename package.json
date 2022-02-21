@@ -62,7 +62,7 @@
     "stable": "^0.1.8",
     "unorm": "^1.4.1",
     "uri-js": "^4.2.2",
-    "url-parse": "^1.4.3"
+    "url-parse": "^1.5.9"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
