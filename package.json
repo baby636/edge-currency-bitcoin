@@ -32,11 +32,12 @@
     "flow": "flow",
     "lint": "eslint .",
     "precommit": "lint-staged && flow && npm test && npm run build",
-    "prepare": "npm run build",
+    "prepare": "yarn run snyk-protect && npm run build",
     "security": "yarn audit",
     "test": "nyc mocha -r sucrase/register './test/**/*.js'",
     "posttest": "nyc report --reporter=cobertura --reporter=html",
-    "updot": "updot"
+    "updot": "updot",
+    "snyk-protect": "snyk-protect"
   },
   "husky": {
     "hooks": {
@@ -62,7 +63,8 @@
     "stable": "^0.1.8",
     "unorm": "^1.4.1",
     "uri-js": "^4.2.2",
-    "url-parse": "^1.4.3"
+    "url-parse": "^1.4.3",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -99,5 +101,6 @@
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3"
   },
-  "react-native": "./lib/index.js"
+  "react-native": "./lib/index.js",
+  "snyk": true
 }
