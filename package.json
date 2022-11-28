@@ -97,7 +97,7 @@
     "sucrase": "^3.9.5",
     "updot": "^1.1.7",
     "webpack": "^4.29.3",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.3.12"
   },
   "react-native": "./lib/index.js"
 }
