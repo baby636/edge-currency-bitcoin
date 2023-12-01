@@ -89,14 +89,14 @@
     "mocha-multi-reporters": "^1.1.7",
     "mochawesome": "^3.0.3",
     "node-fetch": "^2.2.0",
-    "nyc": "^13.0.1",
+    "nyc": "^15.0.0",
     "prettier": "^2.2.0",
-    "prettier-eslint-cli": "^4.7.1",
+    "prettier-eslint-cli": "^5.0.0",
     "request": "^2.88.0",
-    "rimraf": "^2.6.2",
+    "rimraf": "^4.0.0",
     "sucrase": "^3.9.5",
     "updot": "^1.1.7",
-    "webpack": "^4.29.3",
+    "webpack": "^5.1.1",
     "webpack-cli": "^3.2.3"
   },
   "react-native": "./lib/index.js"
