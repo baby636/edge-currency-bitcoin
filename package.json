@@ -66,12 +66,12 @@
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-env": "^7.22.0",
     "@babel/preset-flow": "^7.0.0",
     "@babel/runtime": "^7.0.0",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.0.5",
-    "edge-core-js": "0.17.8",
+    "edge-core-js": "1.0.0",
     "eslint": "^7.14.0",
     "eslint-config-standard-kit": "0.15.1",
     "eslint-plugin-flowtype": "^5.2.0",
@@ -96,8 +96,8 @@
     "rimraf": "^2.6.2",
     "sucrase": "^3.9.5",
     "updot": "^1.1.7",
-    "webpack": "^4.29.3",
-    "webpack-cli": "^3.2.3"
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
   },
   "react-native": "./lib/index.js"
 }
