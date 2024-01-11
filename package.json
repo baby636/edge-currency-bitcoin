@@ -96,7 +96,7 @@
     "rimraf": "^2.6.2",
     "sucrase": "^3.9.5",
     "updot": "^1.1.7",
-    "webpack": "^4.29.3",
+    "webpack": "^5.1.1",
     "webpack-cli": "^3.2.3"
   },
   "react-native": "./lib/index.js"
