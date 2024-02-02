@@ -47,7 +47,7 @@
     "*.js": "eslint"
   },
   "dependencies": {
-    "bcoin": "git+https://github.com/Airbitz/bcoin.git#primitiveBuild",
+    "bcoin": "1.0.2",
     "biggystring": "3.0.2",
     "bn.js": "^4.11.8",
     "bs58grscheck": "https://github.com/Groestlcoin/bs58grscheck",
@@ -92,7 +92,7 @@
     "nyc": "^13.0.1",
     "prettier": "^2.2.0",
     "prettier-eslint-cli": "^4.7.1",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "rimraf": "^2.6.2",
     "sucrase": "^3.9.5",
     "updot": "^1.1.7",
